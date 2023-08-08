@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_his"
+        android:title="History"
+        android:icon="@drawable/history"
+        app:cnb_backgroundColor="#217aff"/>
+
+    <item
+        android:id="@+id/bottom_nav_geo"
+        android:title="Geography"
+        android:icon="@drawable/geography"
+        app:cnb_backgroundColor="#217aff"/>
+
+    <item
+        android:id="@+id/bottom_nav_civ"
+        android:title="Civics"
+        android:icon="@drawable/civics"
+        app:cnb_backgroundColor="#217aff"/>
+
+    <item
+        android:id="@+id/bottom_nav_eco"
+        android:title="Economics"
+        android:icon="@drawable/economics"
+        app:cnb_backgroundColor="#217aff"/>
+
+</menu>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#217aff"
+    tools:context=".X.XTelugu">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#1D6CE9"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/MenuStyle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Telugu"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+            <LinearLayout
+                android:id="@+id/ch1"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="దానశీలము"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch2"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="ఎవరి భాష వాళ్లకు వినసొంపు"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch3"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="వీర తెలంగాణ"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch4"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="కొత్తబాట"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch5"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="నగర గీతం"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch6"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="భాగ్యోదయం"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch7"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="శతక మధురిమ"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch8"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="లక్ష్యసిద్ధి"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch9"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="జీవన భాష్యం"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch10"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="గోలకొండ పట్టణము"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch11"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="భిక్ష"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch12"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="భూమిక"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch13"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="రామాయణం (ఉపవాచకం)"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

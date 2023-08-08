@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#217aff"
+    tools:context=".fragments_nav.Civics">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#1D6CE9"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/MenuStyle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Social"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+            <LinearLayout
+                android:id="@+id/ch1"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Power Sharing"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch2"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Federalism"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch3"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Democracy and Diversity"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch4"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Gender, Religion and Caste"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch5"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Popular Struggles and Movements"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch6"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Political Parties"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch7"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Outcomes of Democracy"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch8"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Challenges to Democracy"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

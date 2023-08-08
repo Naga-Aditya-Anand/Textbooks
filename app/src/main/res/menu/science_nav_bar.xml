@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_chem"
+        android:title="Chemistry"
+        android:icon="@drawable/chemistry"
+        app:cnb_backgroundColor="#217aff"/>
+
+    <item
+        android:id="@+id/bottom_nav_phy"
+        android:title="Physics"
+        android:icon="@drawable/physics"
+        app:cnb_backgroundColor="#217aff"/>
+
+    <item
+        android:id="@+id/bottom_nav_bio"
+        android:title="Biology"
+        android:icon="@drawable/biology"
+        app:cnb_backgroundColor="#217aff"/>
+
+</menu>

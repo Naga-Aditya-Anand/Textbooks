@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#217aff"
+    tools:context=".X.mathssol">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#1D6CE9"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/MenuStyle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Maths"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+            <LinearLayout
+                android:id="@+id/ch1"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Real Numbers"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch2"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Polynomials"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_buttons_blue"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Pair of Linear Equations in Two Variables"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch4"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Quadratic Equations"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch5"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Artithmetic Progressions"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch6"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Triangles"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch7"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Coordinate Geometry"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch8"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Introduction to Trigonometry"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch9"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_buttons_blue"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Some Applications of Trigonometry"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch10"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Circles"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch11"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Constructions"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch12"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Areas Related to Circles"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch13"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Surface Areas and Volumes "
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch14"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Statistics"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch15"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Probability"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

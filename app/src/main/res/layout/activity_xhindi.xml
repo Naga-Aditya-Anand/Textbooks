@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#217aff"
+    tools:context=".X.XHindi">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#1D6CE9"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/MenuStyle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Hindi"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+            <LinearLayout
+                android:id="@+id/tb"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Reader (Lessons)"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/poetry"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Poetry"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nd"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_buttons_blue"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almendra_sc"
+                    android:text="Non-Detail"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#217aff"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

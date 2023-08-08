@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/bottom_nav_qpapers"
+        android:title="Question Papers"
+        android:icon="@drawable/icons8_test_passed_64"
+        app:cnb_backgroundColor="#217aff"/>
+
+    <item
+        android:id="@+id/bottom_nav_tbooks"
+        android:title="Textbooks"
+        android:icon="@drawable/icons8_book_64"
+        app:cnb_backgroundColor="#217aff"/>
+
+    <item
+        android:id="@+id/bottom_nav_solutions"
+        android:title="Solutions"
+        android:icon="@drawable/icons8_exam_64"
+        app:cnb_backgroundColor="#217aff"/>
+
+</menu>
