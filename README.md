@@ -8,7 +8,7 @@ Welcome to the Textbooks repository! This project is designed to help users easi
 
 - **Main Language:** Java
 - **License:** MIT License
-- **Visibility:** Private
+- **Visibility:** Pubic
 
 ## Project Structure
 
